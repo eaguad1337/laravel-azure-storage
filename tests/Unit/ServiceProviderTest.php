@@ -8,8 +8,8 @@ use Illuminate\Config\Repository;
 use Illuminate\Filesystem\FilesystemManager;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Storage;
-use Matthewbdaly\LaravelAzureStorage\Exceptions\EndpointNotSet;
-use Matthewbdaly\LaravelAzureStorage\Exceptions\KeyNotSet;
+use Collapsar\LaravelAzureStorage\Exceptions\EndpointNotSet;
+use Collapsar\LaravelAzureStorage\Exceptions\KeyNotSet;
 use MicrosoftAzure\Storage\Blob\BlobRestProxy;
 
 it('sets up the storage correctly', function (): void {

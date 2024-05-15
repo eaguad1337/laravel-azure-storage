@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Matthewbdaly\LaravelAzureStorage;
+namespace Collapsar\LaravelAzureStorage;
 
 use Illuminate\Support\Arr;
 use League\Flysystem\AzureBlobStorage\AzureBlobStorageAdapter as BaseAzureBlobStorageAdapter;
-use Matthewbdaly\LaravelAzureStorage\Exceptions\InvalidCustomUrl;
-use Matthewbdaly\LaravelAzureStorage\Exceptions\KeyNotSet;
+use Collapsar\LaravelAzureStorage\Exceptions\InvalidCustomUrl;
+use Collapsar\LaravelAzureStorage\Exceptions\KeyNotSet;
 use MicrosoftAzure\Storage\Blob\BlobRestProxy;
 use MicrosoftAzure\Storage\Blob\BlobSharedAccessSignatureHelper;
 

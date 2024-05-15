@@ -15,7 +15,7 @@ This is a custom driver for [Laravel's File Storage API](https://laravel.com/doc
 Install the package using composer:
 
 ```bash
-composer require matthewbdaly/laravel-azure-storage
+composer require Collapsar/laravel-azure-storage
 ```
 
 Then add this to the `disks` section of `config/filesystems.php`:
@@ -28,7 +28,7 @@ Then add this to the `disks` section of `config/filesystems.php`:
             'container' => env('AZURE_STORAGE_CONTAINER'),
             'url'       => env('AZURE_STORAGE_URL'),
             'prefix'    => null,
-            'connection_string' => env('AZURE_STORAGE_CONNECTION_STRING') // optional, will override default endpoint builder 
+            'connection_string' => env('AZURE_STORAGE_CONNECTION_STRING') // optional, will override default endpoint builder
         ],
 ```
 
